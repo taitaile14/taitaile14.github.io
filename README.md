@@ -40,12 +40,12 @@ The first build takes 1–2 minutes.
 ## Local preview
 
 ```bash
-bundle install
-bundle exec jekyll serve
-# http://127.0.0.1:4000
+./preview.sh          # http://127.0.0.1:4000
 ```
 
-Ruby 3.x is the safest local version. The live build on GitHub Pages does not use this local setup.
+`preview.sh` uses `Gemfile.preview` (Jekyll 4), because the `github-pages` gem pins Jekyll 3.9,
+which does not run on Ruby 3.4+ or Ruby 4.x. GitHub Pages builds the live site from `Gemfile`
+in its own environment, so the two never conflict.
 
 ## Double-blind policy used on this site
 

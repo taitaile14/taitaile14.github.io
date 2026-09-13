@@ -25,3 +25,13 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Local preview only: Ruby 3.4+/4.x moved these out of the default stdlib,
+# and the github-pages build of Jekyll 3.9 still requires them.
+# GitHub Pages builds the site in its own environment and ignores this block.
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+gem "ostruct"
+gem "webrick"
