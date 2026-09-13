@@ -22,4 +22,4 @@ main:
     url: "/#awards"
 
   - title: "CV"
-    url: "/files/Zhang_Mingtai_CV_CS.pdf"
+    url: "/#cv"
