@@ -29,12 +29,17 @@ This rewrites `url`, `repository`, and `author.github` in `_config.yml`.
 
 ## Deploy
 
+The repository name must match the account name, so rename the GitHub account first if needed
+(**Settings → Account → Change username**; the GitHub API cannot do this).
+
 ```bash
-git init && git add -A && git commit -m "Initial homepage"
-gh repo create <username>.github.io --public --source=. --push
+./set_username.sh mingtaizhang   # writes the handle into _config.yml
+gh auth login                    # log in as that same account
+./deploy.sh                      # creates <username>.github.io and enables Pages
 ```
 
-Then open **Settings → Pages** and set *Source: Deploy from a branch*, branch `main`, folder `/ (root)`.
+`deploy.sh` refuses to run when the configured handle and the logged-in account differ,
+because a user site only works inside `<username>.github.io` owned by that user.
 The first build takes 1–2 minutes.
 
 ## Local preview
