@@ -14,7 +14,7 @@ I completed my **B.Eng. in Materials Science and Engineering** at **Guangxi Univ
 
 Across projects in four fields I have held one role: **I build the part that decides whether a claim is true** — the measure, the control, or the harness. That has meant a two-channel audit of memory and attribution in conversational agents, the evaluation harness for an identifiability result in coherent imaging, the experimental verification of a minimax bound on estimating a selected system's accuracy from a fixed label budget, and, in the lab, an interface claim that had to survive three complementary cell configurations before I would report it.
 
-I want to work on measurement design for systems that cannot be observed directly: what an evaluation has to cover, and what it costs, before a reported improvement can be believed. My interests are **evaluation and auditing of LLM systems**, **memory, attribution, and trustworthy human–AI interaction**, **inverse problems and sample complexity**, and **AI for experimental science**. I am applying for **PhD positions starting Fall 2027**.
+Most of this work was done after the degree. Since June 2026 I have worked on research full time, and the two papers now under double-blind review were built in that period. I want to work on measurement design for systems that cannot be observed directly: what an evaluation has to cover, and what it costs, before a reported improvement can be believed. My interests are **evaluation and auditing of LLM systems**, **memory, attribution, and trustworthy human–AI interaction**, **inverse problems and sample complexity**, and **AI for experimental science**. I am applying for **PhD positions starting Fall 2027**.
 
 <span class='anchor' id='news'></span>
 
@@ -24,7 +24,7 @@ I want to work on measurement design for systems that cannot be observed directl
 - *2026.09*: &nbsp;📄 A **second-author** paper on the accuracy–evaluation trade-off in test-time selection is under **double-blind review** at a top-tier machine-learning venue.
 - *2026.08*: &nbsp;🎉🎉 *The "10th Juror": Open-Set Standpoint Screening for Bureaucratic Bias Detection* was accepted to the [EMNLP 2026 Main Conference](https://2026.emnlp.org/).
 - *2026.08*: &nbsp;📄 *Two-Scan Recovery of Sparse Defects in Ptychography* was submitted to *IEEE Signal Processing Letters* and is under review.
-- *2026.02*: &nbsp;🚀 Founded the **Kangjie returning-student tutoring platform** in Yuncheng, Shanxi: 18 tutors, 37 secondary-school students, coordination run by AI agent tooling.
+- *2026.02*: &nbsp;🚀 Founded the **Kangjie returning-student tutoring platform** in Yuncheng, Shanxi: 28 tutors, 37 high-school students, coordination run by AI agent tooling.
 - *2026.06*: &nbsp;🎓 Completed my B.Eng. at Guangxi University, with a thesis on lithiophilic Mg interlayers for lithium-metal anodes.
 - *2025.12*: &nbsp;📄 Our siloxane-additive electrolyte paper appeared in *Journal of Physics: Conference Series* (CEAMS 2025).
 - *2025*: &nbsp;🏆 **First place**, Guangxi "Qianli Cup" Intercollegiate Football League (undergraduate division), as team captain.
@@ -111,7 +111,7 @@ An agent panel drops the closed-world assumption behind fixed bias taxonomies: a
 
 **Systems built and deployed**
 
-- *Winter 2026*, **Founder, Kangjie Returning-Student Tutoring Platform**, Yuncheng, Shanxi. A non-profit tutoring service staffed by university students home for the holiday. I owned scheduling, tutor–student matching, progress tracking, and daily operations, and rebuilt the operating workflow around AI agent tooling, which removed most of the manual coordination work. It was also a practical test of whether agents hold up as operators rather than demos. The service mobilized 18 tutors for 37 secondary-school students.
+- *Winter 2026*, **Founder, Kangjie Returning-Student Tutoring Platform**, Yuncheng, Shanxi. A non-profit tutoring service staffed by university students home for the holiday. I owned scheduling, tutor–student matching, progress tracking, and daily operations, and rebuilt the operating workflow around AI agent tooling, which removed most of the manual coordination work. It was also a practical test of whether agents hold up as operators rather than demos. In total the service mobilized 28 tutors to serve 37 high-school students.
 - *2026–present*, **Co-Founder, On-Demand Fitness Coaching Platform**, Guangxi University. A live two-sided service run with the Guangxi University Rehabilitation Association that matches certified student coaches to users for one-on-one on-site sessions. I own operating strategy, supply coordination, and the commercial model.
 
 **Industry grounding** · *2024–2026* · four supervised placements, sixteen manufacturing enterprises across six industries in Guangxi
