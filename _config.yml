@@ -1,8 +1,8 @@
 # Site Settings
 title                    : "Mingtai Zhang (张明泰)"
 description              : "Undergraduate Researcher"
-repository               : "mingtaizhang/mingtaizhang.github.io"
-url                      : "https://mingtaizhang.github.io"
+repository               : "taitaile14/taitaile14.github.io"
+url                      : "https://taitaile14.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -31,7 +31,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "mingtaizhang"
+  github           : "taitaile14"
   google_plus      :
   keybase          :
   instagram        :
