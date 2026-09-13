@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -272,5 +272,59 @@
   }
   @include breakpoint($large) {
     display: none;
+  }
+}
+
+/* --- Sidebar layout overrides -------------------------------------------
+   The template declares `.profile_box { display: flex }` after its own
+   `@include breakpoint($large) { display: block }`, so the later declaration
+   wins and the avatar, name, and link list stay in one row inside a narrow
+   column. That is what pushes the link list on top of the page text.
+   These rules restore the intended vertical stack on wide screens and let
+   long entries wrap inside the column.
+   ----------------------------------------------------------------------- */
+@media (min-width: 57.8125em) {
+  .sidebar .profile_box {
+    display: block;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 100%;
+  }
+
+  .sidebar .author__urls {
+    display: block;
+    position: relative;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+.sidebar {
+  .author__urls-wrapper,
+  .author__urls {
+    max-width: 100%;
+  }
+
+  .author__urls li {
+    white-space: normal;
+  }
+
+  .author__urls a {
+    display: inline-block;
+    max-width: 100%;
   }
 }
